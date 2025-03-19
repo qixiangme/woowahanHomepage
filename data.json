@@ -1,0 +1,32 @@
+[
+  {
+    "title": "우아한형제들이 알고 싶다",
+    "image": "https://woowahan-cdn.woowahan.com/new_resources/image/banner/27539594cf5a46129e203067a11952d4.jpg",
+    "paragraph1": "행복도",
+    "paragraph2": ["배", "달", "이", " ", "되", "나", "요", "?"],
+    "linkText": "회사 소개 >",
+    "animation": "1"
+  },
+  {
+    "title": "우아한형제들이 알고 싶다",
+    "image": "https://woowahan-cdn.woowahan.com/new_resources/image/banner/220aff42629644d694df2b58e363141c.jpg",
+    "paragraph1": "배달의민족에게",
+    "paragraph2": ["행", "복", "이", "란", "?"],
+    "linkText": "회사 소개 >",
+    "animation": "2"
+  },
+  {
+    "title": "우아한형제들이 알고 싶다",
+    "image": "https://woowahan-cdn.woowahan.com/new_resources/image/banner/27539594cf5a46129e203067a11952d4.jpg",
+    "paragraph1": "부지런히 남긴",
+    "paragraph2": ["배", "달", "의", " ", "자", "국"],
+    "linkText": "회사 소개 >"
+  },
+  {
+    "title": "우아한형제들이 알고 싶다",
+    "image": "https://woowahan-cdn.woowahan.com/new_resources/image/banner/27539594cf5a46129e203067a11952d4.jpg",
+    "paragraph1": "우리",
+    "paragraph2": ["재", "미", "지", "게", "&nbsp;", "일", "해", "요"],
+    "linkText": "인재영입 >"
+  }
+]
