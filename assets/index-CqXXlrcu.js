@@ -116,7 +116,7 @@ Error generating stack: `+n.message+`
   font-size: 1em;
   top: 70px;
   z-index: 0;
-`;function ib(){const[i,r]=gt.useState([]);return gt.useEffect(()=>{fetch("./data.json").then(o=>o.json()).then(o=>{r(o)})}),J.jsxs("div",{children:[J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx(Gv,{children:"빠르고 정확한"}),J.jsx(Gv,{children:"우아한형제들의 새 소식"}),J.jsx(cb,{children:i.map((o,f)=>{var h,y,E;return J.jsxs(fb,{children:[J.jsx(sb,{src:(h=i[f])==null?void 0:h.image}),J.jsxs(ob,{children:[J.jsx(db,{children:(y=i[f])==null?void 0:y.title}),J.jsx(hb,{children:(E=i[f])==null?void 0:E.subtitle})]})]},f)})}),J.jsx(rb,{children:J.jsx(ub,{children:"더 보기"})})]})}const ub=Rt.div`
+`;function ib(){const[i,r]=gt.useState([]);return gt.useEffect(()=>{fetch("./newsData.json").then(o=>o.json()).then(o=>{r(o)})}),J.jsxs("div",{children:[J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx("br",{}),J.jsx(Gv,{children:"빠르고 정확한"}),J.jsx(Gv,{children:"우아한형제들의 새 소식"}),J.jsx(cb,{children:i.map((o,f)=>{var h,y,E;return J.jsxs(fb,{children:[J.jsx(sb,{src:(h=i[f])==null?void 0:h.image}),J.jsxs(ob,{children:[J.jsx(db,{children:(y=i[f])==null?void 0:y.title}),J.jsx(hb,{children:(E=i[f])==null?void 0:E.subtitle})]})]},f)})}),J.jsx(rb,{children:J.jsx(ub,{children:"더 보기"})})]})}const ub=Rt.div`
   font-weight: 500;
   display: flex;
   font-size: 1em;
