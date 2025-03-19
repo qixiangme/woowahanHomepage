@@ -6,10 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import News from "./News";
 
-const IMG1 =
-  "https://woowahan-cdn.woowahan.com/new_resources/image/banner/27539594cf5a46129e203067a11952d4.jpg";
-const VD1 =
-  "https://woowahan-cdn.woowahan.com/new_resources/image/banner/d7303c0c6aa149d7ba169bb49d79f8b9.mp4";
 
 function Home() {
   const [displayText, setDisplayText] = useState(""); // 동적으로 글자가 렌더링되는 텍스트
