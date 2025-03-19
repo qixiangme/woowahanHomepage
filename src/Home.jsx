@@ -28,7 +28,7 @@ function Home() {
 
   // 텍스트 동적으로 렌더링
   useEffect(() => {
-    fetch("/data.json")
+    fetch("woowahan/data.json")
       .then((response) => response.json())
       .then((data) => {
         const paragraph2 = data[activeIndex].paragraph2 || [];
@@ -46,7 +46,7 @@ function Home() {
   }, [currentIndex]); // currentIndex와 activeIndex가 변경될 때마다 실행
   // 이미지 데이터 가져오기
   useEffect(() => {
-    fetch("/data.json")
+    fetch("/woowahan/data.json")
       .then((response) => response.json())
       .then((data) => {
         setImageData(data); // 가져온 데이터로 이미지 정보 업데이트
