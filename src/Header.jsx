@@ -66,7 +66,7 @@ export default Header;
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
-    padding: 0;
+    paddiging: 0;
     box-sizing: border-box;
   }
 
