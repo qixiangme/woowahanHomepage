@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import News from "./News";
 
-
 function Home() {
   const [displayText, setDisplayText] = useState(""); // 동적으로 글자가 렌더링되는 텍스트
   const [currentIndex, setCurrentIndex] = useState(0); // 현재 글자 인덱스
@@ -28,7 +27,7 @@ function Home() {
 
   // 텍스트 동적으로 렌더링
   useEffect(() => {
-    fetch("woowahan/data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
         const paragraph2 = data[activeIndex].paragraph2 || [];
@@ -46,7 +45,7 @@ function Home() {
   }, [currentIndex]); // currentIndex와 activeIndex가 변경될 때마다 실행
   // 이미지 데이터 가져오기
   useEffect(() => {
-    fetch("/woowahan/data.json")
+    fetch("git/data.json")
       .then((response) => response.json())
       .then((data) => {
         setImageData(data); // 가져온 데이터로 이미지 정보 업데이트

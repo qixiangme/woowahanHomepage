@@ -4,7 +4,7 @@ function News() {
   const [newsData, setNewsData] = useState([]);
 
   useEffect(() => {
-    fetch("woowahan/data.json")
+    fetch("/newsData.json")
       .then((response) => response.json())
       .then((data) => {
         setNewsData(data);
