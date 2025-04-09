@@ -1,2 +1,1 @@
-##dmddkdslskdljdlksddsidsilusoidudosiuosdisdsdsds
-
+하드코딩
